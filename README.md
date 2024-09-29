@@ -20,7 +20,7 @@ Juanbytes is a kiosk-based e-wallet application designed to streamline transacti
 ### Frontend (React Native)
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/jerald011003/J-Bytes_Wallet
+   git clone https://github.com/jerald011003/J-Bytes_Wallet.git
    cd FrontEnd_Juanbytes
 2. Install Dependencies: Make sure you have Node.js and Expo CLI installed.
    ```bash
@@ -32,7 +32,21 @@ Juanbytes is a kiosk-based e-wallet application designed to streamline transacti
 ### Backend (Django)
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/juanbytes-backend.git
-   cd juanbytes-backend
+   git clone https://github.com/jerald011003/J-Bytes_Wallet.git
+   cd BackEnd_Juanbytes
+2. **Create a Virtual Environment (optional but recommended)**:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+3. **Install Dependencies**:
+   **pip install -r requirements.txt**
+   ```bash
+   pip install -r requirements.txt
+4. **Run Migrations**:
+   ```bash
+   python manage.py migrate
+5. **Start the Development Server**:
+   ```bash
+   python manage.py runserver
 
-
+Feel free to check out the repository for more details!
