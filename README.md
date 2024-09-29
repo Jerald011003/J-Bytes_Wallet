@@ -22,3 +22,6 @@ Juanbytes is a kiosk-based e-wallet application designed to streamline transacti
    ```bash
    git clone https://github.com/yourusername/juanbytes.git
    cd juanbytes
+2. Install Dependencies: Make sure you have Node.js and Expo CLI installed.
+
+npm install
